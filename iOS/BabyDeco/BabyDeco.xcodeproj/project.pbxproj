@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DCAD11C1DAB105F00BC55D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAD11B1DAB105F00BC55D7 /* AppDelegate.swift */; };
+		5DCAD11E1DAB105F00BC55D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAD11D1DAB105F00BC55D7 /* ViewController.swift */; };
+		5DCAD1211DAB105F00BC55D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAD11F1DAB105F00BC55D7 /* Main.storyboard */; };
+		5DCAD1241DAB105F00BC55D7 /* BabyDeco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAD1221DAB105F00BC55D7 /* BabyDeco.xcdatamodeld */; };
+		5DCAD1261DAB106000BC55D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAD1251DAB105F00BC55D7 /* Assets.xcassets */; };
+		5DCAD1291DAB106000BC55D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCAD1271DAB106000BC55D7 /* LaunchScreen.storyboard */; };
+		5DCAD1341DAB106000BC55D7 /* BabyDecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAD1331DAB106000BC55D7 /* BabyDecoTests.swift */; };
+		5DCAD13F1DAB106000BC55D7 /* BabyDecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCAD13E1DAB106000BC55D7 /* BabyDecoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DCAD1301DAB106000BC55D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DCAD1101DAB105F00BC55D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCAD1171DAB105F00BC55D7;
+			remoteInfo = BabyDeco;
+		};
+		5DCAD13B1DAB106000BC55D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DCAD1101DAB105F00BC55D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCAD1171DAB105F00BC55D7;
+			remoteInfo = BabyDeco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DCAD1181DAB105F00BC55D7 /* BabyDeco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyDeco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCAD11B1DAB105F00BC55D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DCAD11D1DAB105F00BC55D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DCAD1201DAB105F00BC55D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DCAD1231DAB105F00BC55D7 /* BabyDeco.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyDeco.xcdatamodel; sourceTree = "<group>"; };
+		5DCAD1251DAB105F00BC55D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DCAD1281DAB106000BC55D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DCAD12A1DAB106000BC55D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCAD12F1DAB106000BC55D7 /* BabyDecoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyDecoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCAD1331DAB106000BC55D7 /* BabyDecoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDecoTests.swift; sourceTree = "<group>"; };
+		5DCAD1351DAB106000BC55D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCAD13A1DAB106000BC55D7 /* BabyDecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyDecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCAD13E1DAB106000BC55D7 /* BabyDecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDecoUITests.swift; sourceTree = "<group>"; };
+		5DCAD1401DAB106000BC55D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DCAD1151DAB105F00BC55D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAD12C1DAB106000BC55D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAD1371DAB106000BC55D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DCAD10F1DAB105F00BC55D7 = {
+			isa = PBXGroup;
+			children = (
+				5DCAD11A1DAB105F00BC55D7 /* BabyDeco */,
+				5DCAD1321DAB106000BC55D7 /* BabyDecoTests */,
+				5DCAD13D1DAB106000BC55D7 /* BabyDecoUITests */,
+				5DCAD1191DAB105F00BC55D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DCAD1191DAB105F00BC55D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAD1181DAB105F00BC55D7 /* BabyDeco.app */,
+				5DCAD12F1DAB106000BC55D7 /* BabyDecoTests.xctest */,
+				5DCAD13A1DAB106000BC55D7 /* BabyDecoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCAD11A1DAB105F00BC55D7 /* BabyDeco */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAD11B1DAB105F00BC55D7 /* AppDelegate.swift */,
+				5DCAD11D1DAB105F00BC55D7 /* ViewController.swift */,
+				5DCAD11F1DAB105F00BC55D7 /* Main.storyboard */,
+				5DCAD1251DAB105F00BC55D7 /* Assets.xcassets */,
+				5DCAD1271DAB106000BC55D7 /* LaunchScreen.storyboard */,
+				5DCAD12A1DAB106000BC55D7 /* Info.plist */,
+				5DCAD1221DAB105F00BC55D7 /* BabyDeco.xcdatamodeld */,
+			);
+			path = BabyDeco;
+			sourceTree = "<group>";
+		};
+		5DCAD1321DAB106000BC55D7 /* BabyDecoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAD1331DAB106000BC55D7 /* BabyDecoTests.swift */,
+				5DCAD1351DAB106000BC55D7 /* Info.plist */,
+			);
+			path = BabyDecoTests;
+			sourceTree = "<group>";
+		};
+		5DCAD13D1DAB106000BC55D7 /* BabyDecoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DCAD13E1DAB106000BC55D7 /* BabyDecoUITests.swift */,
+				5DCAD1401DAB106000BC55D7 /* Info.plist */,
+			);
+			path = BabyDecoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DCAD1171DAB105F00BC55D7 /* BabyDeco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCAD1431DAB106000BC55D7 /* Build configuration list for PBXNativeTarget "BabyDeco" */;
+			buildPhases = (
+				5DCAD1141DAB105F00BC55D7 /* Sources */,
+				5DCAD1151DAB105F00BC55D7 /* Frameworks */,
+				5DCAD1161DAB105F00BC55D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyDeco;
+			productName = BabyDeco;
+			productReference = 5DCAD1181DAB105F00BC55D7 /* BabyDeco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DCAD12E1DAB106000BC55D7 /* BabyDecoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCAD1461DAB106000BC55D7 /* Build configuration list for PBXNativeTarget "BabyDecoTests" */;
+			buildPhases = (
+				5DCAD12B1DAB106000BC55D7 /* Sources */,
+				5DCAD12C1DAB106000BC55D7 /* Frameworks */,
+				5DCAD12D1DAB106000BC55D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DCAD1311DAB106000BC55D7 /* PBXTargetDependency */,
+			);
+			name = BabyDecoTests;
+			productName = BabyDecoTests;
+			productReference = 5DCAD12F1DAB106000BC55D7 /* BabyDecoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DCAD1391DAB106000BC55D7 /* BabyDecoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCAD1491DAB106000BC55D7 /* Build configuration list for PBXNativeTarget "BabyDecoUITests" */;
+			buildPhases = (
+				5DCAD1361DAB106000BC55D7 /* Sources */,
+				5DCAD1371DAB106000BC55D7 /* Frameworks */,
+				5DCAD1381DAB106000BC55D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DCAD13C1DAB106000BC55D7 /* PBXTargetDependency */,
+			);
+			name = BabyDecoUITests;
+			productName = BabyDecoUITests;
+			productReference = 5DCAD13A1DAB106000BC55D7 /* BabyDecoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DCAD1101DAB105F00BC55D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ikunyan.org;
+				TargetAttributes = {
+					5DCAD1171DAB105F00BC55D7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MQNN68Z62J;
+						ProvisioningStyle = Automatic;
+					};
+					5DCAD12E1DAB106000BC55D7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MQNN68Z62J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DCAD1171DAB105F00BC55D7;
+					};
+					5DCAD1391DAB106000BC55D7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MQNN68Z62J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DCAD1171DAB105F00BC55D7;
+					};
+				};
+			};
+			buildConfigurationList = 5DCAD1131DAB105F00BC55D7 /* Build configuration list for PBXProject "BabyDeco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DCAD10F1DAB105F00BC55D7;
+			productRefGroup = 5DCAD1191DAB105F00BC55D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DCAD1171DAB105F00BC55D7 /* BabyDeco */,
+				5DCAD12E1DAB106000BC55D7 /* BabyDecoTests */,
+				5DCAD1391DAB106000BC55D7 /* BabyDecoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DCAD1161DAB105F00BC55D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCAD1291DAB106000BC55D7 /* LaunchScreen.storyboard in Resources */,
+				5DCAD1261DAB106000BC55D7 /* Assets.xcassets in Resources */,
+				5DCAD1211DAB105F00BC55D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAD12D1DAB106000BC55D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAD1381DAB106000BC55D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DCAD1141DAB105F00BC55D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCAD11E1DAB105F00BC55D7 /* ViewController.swift in Sources */,
+				5DCAD11C1DAB105F00BC55D7 /* AppDelegate.swift in Sources */,
+				5DCAD1241DAB105F00BC55D7 /* BabyDeco.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAD12B1DAB106000BC55D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCAD1341DAB106000BC55D7 /* BabyDecoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCAD1361DAB106000BC55D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCAD13F1DAB106000BC55D7 /* BabyDecoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DCAD1311DAB106000BC55D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DCAD1171DAB105F00BC55D7 /* BabyDeco */;
+			targetProxy = 5DCAD1301DAB106000BC55D7 /* PBXContainerItemProxy */;
+		};
+		5DCAD13C1DAB106000BC55D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DCAD1171DAB105F00BC55D7 /* BabyDeco */;
+			targetProxy = 5DCAD13B1DAB106000BC55D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DCAD11F1DAB105F00BC55D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCAD1201DAB105F00BC55D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DCAD1271DAB106000BC55D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DCAD1281DAB106000BC55D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DCAD1411DAB106000BC55D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DCAD1421DAB106000BC55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DCAD1441DAB106000BC55D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MQNN68Z62J;
+				INFOPLIST_FILE = BabyDeco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.babydeco.app.BabyDeco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5DCAD1451DAB106000BC55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MQNN68Z62J;
+				INFOPLIST_FILE = BabyDeco/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.babydeco.app.BabyDeco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5DCAD1471DAB106000BC55D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MQNN68Z62J;
+				INFOPLIST_FILE = BabyDecoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.babydeco.app.BabyDecoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyDeco.app/BabyDeco";
+			};
+			name = Debug;
+		};
+		5DCAD1481DAB106000BC55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MQNN68Z62J;
+				INFOPLIST_FILE = BabyDecoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.babydeco.app.BabyDecoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyDeco.app/BabyDeco";
+			};
+			name = Release;
+		};
+		5DCAD14A1DAB106000BC55D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MQNN68Z62J;
+				INFOPLIST_FILE = BabyDecoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.babydeco.app.BabyDecoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BabyDeco;
+			};
+			name = Debug;
+		};
+		5DCAD14B1DAB106000BC55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MQNN68Z62J;
+				INFOPLIST_FILE = BabyDecoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.babydeco.app.BabyDecoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BabyDeco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DCAD1131DAB105F00BC55D7 /* Build configuration list for PBXProject "BabyDeco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCAD1411DAB106000BC55D7 /* Debug */,
+				5DCAD1421DAB106000BC55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCAD1431DAB106000BC55D7 /* Build configuration list for PBXNativeTarget "BabyDeco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCAD1441DAB106000BC55D7 /* Debug */,
+				5DCAD1451DAB106000BC55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DCAD1461DAB106000BC55D7 /* Build configuration list for PBXNativeTarget "BabyDecoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCAD1471DAB106000BC55D7 /* Debug */,
+				5DCAD1481DAB106000BC55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DCAD1491DAB106000BC55D7 /* Build configuration list for PBXNativeTarget "BabyDecoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DCAD14A1DAB106000BC55D7 /* Debug */,
+				5DCAD14B1DAB106000BC55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DCAD1221DAB105F00BC55D7 /* BabyDeco.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DCAD1231DAB105F00BC55D7 /* BabyDeco.xcdatamodel */,
+			);
+			currentVersion = 5DCAD1231DAB105F00BC55D7 /* BabyDeco.xcdatamodel */;
+			path = BabyDeco.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DCAD1101DAB105F00BC55D7 /* Project object */;
+}
